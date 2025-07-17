@@ -1,8 +1,0 @@
-{
-  "name": "yippe-pillow",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "style": "sass -w style.scss:style.css"
-  }
-}
