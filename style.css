@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Benzin";
+  src: local("Benzin Semibold"), local("Benzin-Semibold"), url("fonts/Benzin-Semibold.woff2") format("woff2"), url("fonts/Benzin-Semibold.woff") format("woff"), url("fonts/Benzin-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+.benzin {
+  font-family: "Benzin";
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  background: linear-gradient(#F78EE7, #D40C66) no-repeat;
+  scroll-behavior: smooth;
+}
+html body {
+  margin: 0;
+}
+html header {
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+html header .title {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  margin-top: 30px;
+}
+html .start h1 {
+  text-align: center;
+  color: white;
+}
+html .start .rabbit {
+  margin-left: 10%;
+}
+html .start .frog {
+  display: flex;
+  justify-content: right;
+  margin-right: 10%;
+}
+html #products {
+  scroll-behavior: smooth;
+}
+html #products h2 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+html #products .row {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+html #products .row .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html #products .row .card p {
+  color: white;
+  font-size: 20px;
+}
+html .description {
+  text-align: center;
+  color: white;
+}
+html .description .order {
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  background: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+html footer {
+  padding: 30px 0;
+  background: #8F154F;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  text-align: center;
+  margin-top: 100px;
+}
+html footer .row {
+  text-align: center;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+html footer .row a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
